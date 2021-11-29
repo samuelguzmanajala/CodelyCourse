@@ -1,0 +1,5 @@
+service: 
+
+  Mooc.Notes.application.NoteCreator:
+    class: ../../../../../Context/Mooc/Notes/application/NoteCreator
+    argument: []
