@@ -6,7 +6,7 @@ Feature: Create new note
   Scenario: A valid non existing note
     Given I send a PUT request to "/notes/ef8ac118-8d7f-49cc-abec-78e0d05af80a" with body:
     """
-    {
+    { 
       "title": "The best course",
       "body": "5 hours"
     }

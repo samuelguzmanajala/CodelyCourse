@@ -2,6 +2,7 @@ import { Note } from "../../../../../src/Contexts/Mooc/Notes/domain/Note";
 import { NoteRepository } from "../../../../../src/Contexts/Mooc/Notes/domain/NoteRepository";
 import { NoteCreator } from "../../../../../src/Contexts/Mooc/Notes/application/NoteCreator";
 
+
 describe('NoteCreator', () => {
     it('should create valid course', async () => {
         const repository: NoteRepository = {
