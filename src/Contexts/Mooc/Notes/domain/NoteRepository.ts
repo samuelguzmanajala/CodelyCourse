@@ -1,5 +1,5 @@
-import { Note } from "./Note";
+import { Note } from './Note';
 
-export interface NoteRepository{
-    save(note: Note):Promise<void>;
+export interface NoteRepository {
+    save(note: Note): Promise<void>;
 }
