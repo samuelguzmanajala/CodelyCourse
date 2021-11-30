@@ -8,6 +8,6 @@ services:
     class: ../../controllers/CoursePutController
     arguments: [""]
   
-  Apps.mooc.controllers.NotesPutController:
-    class: ../../controllers/NotesPutController
-    arguments: []
+  Apps.mooc.controllers.NotePutController:
+    class: ../../controllers/NotePutController
+    arguments: ["@Mooc.Notes.application.NoteCreator"]
