@@ -18,5 +18,4 @@ export class FileNoteRepository implements NoteRepository {
     private filePath(id: string): string {
         return `${this.FILE_PATH}.${id}.repo`;
     }
-
 }

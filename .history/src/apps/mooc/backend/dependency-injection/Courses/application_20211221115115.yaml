@@ -1,0 +1,9 @@
+services: 
+
+  Mooc.Curses.application.CurseCreator:
+    class: ../../../../../Contexts/Mooc/Curse/application/NoteCreator
+    arguments: ["@Mooc.Notes.domain.NoteRepository"]
+
+  Mooc.Curses.domain.CurseRepository:
+    class: ../../../../../Contexts/Mooc/Curse/infrastructure/persistence/FileNoteRepository
+    arguments: [""]
